@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image: url(https://i.postimg.cc/XJG9xK4C/Whats-App-Image-2021-06-08-at-14-31-52-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    position: relative;
+}
+nav{
+    position: absolute;
+    top:0;
+    right: 0; 
+    left:0;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: 50px 60px 0 60px;
+}
+nav h2{
+    padding: 5px;
+    color: azure;
+    text-decoration: none;
+    
+}
+
+nav li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+nav li span{
+    padding-left: 5px;
+}
+li a {
+    padding: 5px;
+    background-color: azure;
+    text-decoration: none;
+}
+.cart a {
+    background-color:black;
+    color:cornsilk;
+    cursor:pointer;
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.images{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px
+
+}
+
+
+
